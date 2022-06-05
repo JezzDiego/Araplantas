@@ -26,6 +26,5 @@ Route.get('/login', 'SessionsController.login')
 Route.get('/signup', 'SessionsController.signup')
 Route.get('/profile', 'SessionsController.profile')
 
-Route.get('/signup', 'SessionsController.signup')
 Route.get('/plants', 'PlantController.index')
 Route.get('/carrinho', 'ShoppingController.index')
